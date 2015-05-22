@@ -34,8 +34,14 @@
         "word": "mom",
         "imgPath": "img/mom.png"
     },
-			 {
+	{
         "word": "dad",
         "imgPath": "img/dad.jpg"
-    }]
+    },
+			  {
+				  "word": "boat",
+				  "imgPath": "img/boat.png"
+			  }
+			 
+			]
 }

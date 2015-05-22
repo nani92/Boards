@@ -29,7 +29,10 @@ $(document).ready(function(){
 
 function AppendNewImage(index){
 	$("#imageContainer").append($(im[index]));
-	$("#nameContainer").append("<span>"+im[index].attr("id"));
+	if(im[index].attr("id").length>3)
+		$("#nameContainer").append("<span id=l" +im[index].attr("id").length +" >"+im[index].attr("id"));
+	else
+		$("#nameContainer").append("<span id=\"l3\">" + im[index].attr("id"));
 	
 }
 

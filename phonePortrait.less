@@ -80,7 +80,17 @@ html, body{
     right: 0;
 }
 
-#nameContainer > span{
+#nameContainer > #l4{
+	@media @smartPhoneLand, @tabletLand{
+		font-size: 13vw;
+		max-width: 100%;
+		word-break: break-all;
+		letter-spacing: 10vw;
+		line-height: 18vh;
+	}
+}
+
+#nameContainer > #l3{
 	margin: 0;
 	font-size: 17vh;
 	@media @smartPhoneLand, @tabletLand{
@@ -90,6 +100,6 @@ html, body{
 		letter-spacing: 5vw;
 		line-height: 25vh;
 	}
-	
 }
+
 
