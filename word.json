@@ -1,0 +1,41 @@
+{
+    "words": [{
+        "word": "cat",
+        "imgPath": "img/cat.jpg"
+    }, {
+        "word": "cow",
+        "imgPath": "img/cow.jpg"
+    }, {
+        "word": "dog",
+        "imgPath": "img/dog.jpg"
+    }, {
+        "word": "one",
+        "imgPath": "img/one.png"
+    }, {
+        "word": "two",
+        "imgPath": "img/two.gif"
+    }, {
+        "word": "sun",
+        "imgPath": "img/sun.jpg"
+    }, {
+        "word": "car",
+        "imgPath": "img/car.png"
+    }, {
+        "word": "ant",
+        "imgPath": "img/ant.jpg"
+    }, {
+        "word": "pig",
+        "imgPath": "img/pig.jpg"
+    },{
+        "word": "kid",
+        "imgPath": "img/kid.jpg"
+    },
+	{
+        "word": "mom",
+        "imgPath": "img/mom.png"
+    },
+			 {
+        "word": "dad",
+        "imgPath": "img/dad.jpg"
+    }]
+}
