@@ -13,10 +13,27 @@ $(document).ready(function(){
 			$.preloadImage(word.imgPath, word.word);
 		});
 		random = Math.floor((Math.random() * im.length));
-		
 		$("#"+json.words[random].word).ready(function(){
-			$("#imageContainer").append($(im[random]));
-			$("#nameContainer").append("<span>"+im[random].attr("id"));
+			AppendNewImage(random);
 		});
 	});
+	
+	$("#nextButton").click(function(){
+		Clear();
+		random = Math.floor((Math.random() * im.length));
+		AppendNewImage(random);
+	});
 });
+
+
+
+function AppendNewImage(index){
+	$("#imageContainer").append($(im[index]));
+	$("#nameContainer").append("<span>"+im[index].attr("id"));
+	
+}
+
+function Clear(){
+	$("#imageContainer").children("img:first").detach();
+	$("#nameContainer").children("span:first").detach();
+}
